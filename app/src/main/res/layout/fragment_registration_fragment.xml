@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    tools:context=".registration_fragment"
+    android:background="@android:color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/registration_tv4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bank Account Details"
+                android:textColor="@android:color/holo_red_dark"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                />
+
+            <TableLayout
+                android:id="@+id/table"
+                android:layout_below="@id/registration_tv4"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <TableRow>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Name of Account Holder:"
+                        android:textStyle="bold"
+                        android:background="@drawable/background_table"
+                        android:textColor="@color/colorblack"
+                        android:gravity="center"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/background_table"
+                        android:layout_weight="1"
+                        android:text="Centre for Development Communication Trust"
+                        android:textColor="@color/colorblack"
+                        android:gravity="center" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/background_table"
+                        android:text="Account Number:"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorblack"
+                        android:gravity="center"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/background_table"
+                        android:layout_weight="1"
+                        android:text="031010100216388"
+                        android:textColor="@color/colorblack"
+                        android:gravity="center"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/background_table"
+                        android:layout_weight="1"
+                        android:text="Account Type:"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorblack"
+                        android:gravity="center"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="Savings Account"
+                        android:textColor="@color/colorblack"
+                        android:background="@drawable/background_table"
+                        android:gravity="center"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Bank Name:"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorblack"
+                        android:background="@drawable/background_table"
+                        android:gravity="center"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Axis Bank Ltd"
+                        android:textColor="@color/colorblack"
+                        android:background="@drawable/background_table"
+                        android:gravity="center"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Branch:"
+                        android:background="@drawable/background_table"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorblack"
+                        android:gravity="center"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/background_table"
+                        android:layout_weight="1"
+                        android:text="Tilaknagar Jaipur Rajasthan India"
+                        android:textColor="@color/colorblack"
+                        android:gravity="center"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/background_table"
+                        android:text="Address:"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorblack"
+                        android:gravity="center"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/background_table"
+                        android:text="A-31 Kanchan Apartments Opp-lbs College, Tilak Nagar, Jaipur -Rajasthan, India"
+                        android:textColor="@color/colorblack"
+                        android:gravity="center"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Branch Code:"
+                        android:textStyle="bold"
+                        android:background="@drawable/background_table"
+                        android:textColor="@color/colorblack"
+                        android:gravity="center"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="000031"
+                        android:textColor="@color/colorblack"
+                        android:background="@drawable/background_table"
+                        android:gravity="center"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/background_table"
+                        android:layout_weight="1"
+                        android:text="IFSC code:"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorblack"
+                        android:gravity="center"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="UTIB0000031"
+                        android:textColor="@color/colorblack"
+                        android:background="@drawable/background_table"
+                        android:gravity="center"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/background_table"
+                        android:text="MICR Code:"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorblack"
+                        android:gravity="center"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="302211003"
+                        android:textColor="@color/colorblack"
+                        android:background="@drawable/background_table"
+                        android:gravity="center"/>
+                </TableRow>
+
+            </TableLayout>
+
+            <TextView
+                android:id="@+id/registration_tv1"
+                android:layout_below="@id/table"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:textColor="@android:color/black"
+                android:text="The registered delegates would be entitled for admission to opening session, entrance to all scientific sessions and social programs, conference materials including name badge and abstracts book, morning and afternoon tea/coffee and lunches. Registered accompanying persons would be entitled to admission to opening session, name badge, entrance to social programmes, morning and afternoon tea/coffee and lunches."
+                android:textSize="16dp"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/registration_tv2"
+                android:layout_below="@id/registration_tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="10dp"
+                android:textColor="@android:color/holo_red_dark"
+                android:textStyle="bold"
+                android:text="CANCELLATIONS AND REFUNDS"
+                android:textSize="16dp"
+                 />
+
+            <TextView
+                android:id="@+id/registration_tv3"
+                android:layout_below="@id/registration_tv2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="10dp"
+                android:textColor="@android:color/black"
+
+                android:text="Cancellation and Refund: 50% refund of registration fee will be provided for the cancellation made till October 31, 2020. No refund will be provided after that date. Cancellation request must be sent with details of bank account."
+                android:textSize="15dp"
+                app:layout_constraintEnd_toEndOf="parent"/>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

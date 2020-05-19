@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".accomodation_fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/acc_tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:text="Accomodation"/>
+            <TextView
+                android:id="@+id/acc_tv2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/acc_tv1"
+                android:textSize="18dp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="10dp"
+                android:text="We strongly recommend that delegates reserve accommodation for them by making booking directly through hotels. A large number of budget and luxury hotels are available near conference venue (BISR, Statue Circle, Jaipur).
+Note that November is a tourist season for JAIPUR. So it is recommended that the accommodation may be booked in advance according to your travel plans. To help you with the location of the venue and nearby hotels we have included a map of the venue below."/>
+
+            <TextView
+                android:id="@+id/acc_tv3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/acc_tv2"
+                android:textSize="16dp"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="10dp"
+                android:text="You can find Hotels near the Venue of the event."/>
+
+            <TextView
+                android:id="@+id/acc_tv4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/acc_tv3"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="Birla Institute of Scientific Research (BISR),
+Statue Circle, Jaipur-302001, Rajasthan, INDIA"/>
+
+            <TextView
+                android:id="@+id/acc_tv5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/acc_tv4"
+                android:textSize="16dp"
+                android:textColor="@android:color/holo_blue_bright"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textAlignment="center"
+                android:autoLink="all"
+                android:clickable="true"
+                android:text="(Click on this link to open Location of Venue)"/>
+
+            <TextView
+                android:id="@+id/acc_tv6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/acc_tv5"
+                android:textSize="18dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@android:color/black"
+                android:text="The venue is close to the City Centre. There are lots of Hotels in the vicinity and it would not be an issue to find good accomodation nearby."/>
+            <TextView
+                android:id="@+id/acc_tv7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/acc_tv6"
+                android:textSize="18dp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="0dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:text="Accommodation for invitees will be arranged by the organizers"/>
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+    </RelativeLayout>

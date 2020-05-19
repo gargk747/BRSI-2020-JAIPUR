@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+android:orientation="vertical"
+    tools:context=".abstract_fragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+
+
+    <TextView
+        android:id="@+id/abs_tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:text="Template for Abstract"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+    <TextView
+        android:id="@+id/abs_tv2"
+        android:layout_below="@+id/abs_tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:textColor="@android:color/holo_blue_bright"
+        android:text="Click here to download"
+        android:textSize="14dp"
+        android:clickable="true"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/abs_tv3"
+        android:layout_below="@id/abs_tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:text="Form for Non Indian Delegates"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+    <TextView
+        android:id="@+id/abs_tv4"
+        android:layout_below="@+id/abs_tv3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:textColor="@android:color/holo_blue_bright"
+        android:text="Click here to download"
+        android:textSize="14dp"
+        android:textAlignment="center"/>
+    <TextView
+        android:id="@+id/abs_tv5"
+        android:layout_below="@+id/abs_tv4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:textColor="@android:color/black"
+        android:text="Must fill up this form and send along with abstract. Even if you are not sure about the final decision of abstract."
+        android:textSize="14dp"
+        android:textAlignment="center"/>
+    <TextView
+        android:id="@+id/abs_tv6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/abs_tv5"
+        android:text="CALL OF PAPER:"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="5dp"
+        android:textSize="18dp"
+        />
+    <TextView
+        android:id="@+id/abs_tv7"
+        android:layout_below="@id/abs_tv6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_marginLeft="8dp"
+        android:text="We invite authors to contribute original papers related to the topics covered by BSAEH-2020. Contributory papers shall be considered for presentation as rapid fire oral presentations or as posters. The selection of papers will be based on an abstract. While abstract submission does not require registration to the conference, presentation of paper at the conference and submission of full manuscript to the BSAEH-2020 special issues of journals require that the presenting author or any of the authors to be registered for the conference by paying the applicable registration fee."
+        />
+    <TextView
+        android:id="@+id/abs_tv8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/abs_tv7"
+        android:text="Publication of full paper in special issues of journals"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="5dp"
+        android:textSize="17dp"
+        />
+    <TextView
+        android:id="@+id/abs_tv9"
+        android:layout_below="@id/abs_tv8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_marginLeft="8dp"
+        android:text="Full manuscripts of abstracts submitted to the conference may be considered for publication in special issues of the journals - Bioresource Technology, Bioresource Technology Reports and others. Submission of full manuscripts should be done following each journal's policies. Participants have to indicate their choice of journal (based on appropriate subject area) in the abstract submission page while submitting the abstract. (More details will be available soon)"
+        />
+            <TextView
+                android:id="@+id/abs_tv10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/abs_tv9"
+                android:text="Abtsract Book and Proceedings"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="5dp"
+                android:textSize="17dp"
+                />
+            <TextView
+                android:id="@+id/abs_tv11"
+                android:layout_below="@id/abs_tv10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="8dp"
+                android:text="Abstracts of the plenary and invited lectures and of the contributory presentations would be published digitally and QR (Quick Response) Code will be shared."/>
+            <TextView
+                android:id="@+id/abs_tv12"
+                android:layout_below="@id/abs_tv11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="8dp"
+                android:text="NOTES"/>
+            <TextView
+                android:id="@+id/abs_tv13"
+                android:layout_below="@id/abs_tv12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="8dp"
+                android:text="1. One registered delegate can submit/present only one abstract."/>
+            <TextView
+                android:id="@+id/abs_tv14"
+                android:layout_below="@id/abs_tv13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="8dp"
+                android:text="2. Each registered delegate will be eligible to select one journal for submission of presented work. Choice must be indicated in abstract/registration form."/>
+
+            <TextView
+                android:id="@+id/abs_tv15"
+                android:layout_below="@id/abs_tv14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="10dp"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:text="The Sessions Details are as follows"/>
+            <TextView
+                android:id="@+id/abs_tv16"
+                android:layout_below="@id/abs_tv15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="8dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="8dp"
+                android:text="A) MPB - Medical and Pharmaceutical Biotechnology"/>
+            <TextView
+                android:id="@+id/abs_tv17"
+                android:layout_below="@id/abs_tv16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="18dp"
+                android:text="i) MPB1- Cancer biology"/>
+            <TextView
+                android:id="@+id/abs_tv18"
+                android:layout_below="@id/abs_tv17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="15dp"
+                android:text="ii) MPB2- Drug discovery and development"/>
+            <TextView
+                android:id="@+id/abs_tv19"
+                android:layout_below="@id/abs_tv18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="12dp"
+                android:text="iii) MPB3- Infectious diseases"/>
+            <TextView
+                android:id="@+id/abs_tv20"
+                android:layout_below="@id/abs_tv19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="12dp"
+                android:text="iv) MPB4- Pharmacology, pharmacodynamics and pharmacokinetics"/>
+            <TextView
+                android:id="@+id/abs_tv21"
+                android:layout_below="@id/abs_tv20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="15dp"
+                android:text="v) MPB5- Vaccine development and Biomedical Devices"/>
+
+            <TextView
+                android:id="@+id/abs_tv22"
+                android:layout_below="@id/abs_tv21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="8dp"
+                android:text="B) FAB - Food and Agricultural Biotechnology"/>
+            <TextView
+                android:id="@+id/abs_tv23"
+                android:layout_below="@id/abs_tv22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="18dp"
+                android:text="i) FAB1- Abiotic and biotic stress, salt tolerant/absorbent plants"/>
+            <TextView
+                android:id="@+id/abs_tv24"
+                android:layout_below="@id/abs_tv23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="15dp"
+                android:text="ii) FAB2- Food fermentation"/>
+            <TextView
+                android:id="@+id/abs_tv25"
+                android:layout_below="@id/abs_tv24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="12dp"
+                android:text="iii) FAB3- Plant biotechnology"/>
+            <TextView
+                android:id="@+id/abs_tv26"
+                android:layout_below="@id/abs_tv25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="12dp"
+                android:text="iv) FAB4- Probiotics and nutraceuticals"/>
+            <TextView
+                android:id="@+id/abs_tv27"
+                android:layout_below="@id/abs_tv26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="15dp"
+                android:text="v) FAB5- Transgenic crops"/>
+            <TextView
+                android:id="@+id/abs_tv28"
+                android:layout_below="@id/abs_tv27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="8dp"
+                android:text="C) EEB - Energy and Environmental Biotechnology"/>
+            <TextView
+                android:id="@+id/abs_tv29"
+                android:layout_below="@id/abs_tv28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="18dp"
+                android:text="i) EEB1- Advances in Biological waste treatment"/>
+            <TextView
+                android:id="@+id/abs_tv30"
+                android:layout_below="@id/abs_tv29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="15dp"
+                android:text="ii) EEB2- Biofuels"/>
+            <TextView
+                android:id="@+id/abs_tv31"
+                android:layout_below="@id/abs_tv30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="12dp"
+                android:text="iii) EEB3- Circular economy in waste management"/>
+            <TextView
+                android:id="@+id/abs_tv32"
+                android:layout_below="@id/abs_tv31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="12dp"
+                android:text="iv) EEB4- Environmental bioengineering"/>
+            <TextView
+                android:id="@+id/abs_tv33"
+                android:layout_below="@id/abs_tv32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="15dp"
+                android:text="v) EEB5- Environment and health linkages- Challenges and way ahead"/>
+            <TextView
+                android:id="@+id/abs_tv34"
+                android:layout_below="@id/abs_tv33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="12dp"
+                android:text="vi) EEB6- Solid waste management"/>
+            <TextView
+                android:id="@+id/abs_tv35"
+                android:layout_below="@id/abs_tv34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="8dp"
+                android:text="D) BIF - Bioinformatics"/>
+            <TextView
+                android:id="@+id/abs_tv36"
+                android:layout_below="@id/abs_tv35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="18dp"
+                android:text="i) BIF1 - Data mining and analytics"/>
+            <TextView
+                android:id="@+id/abs_tv37"
+                android:layout_below="@id/abs_tv36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="15dp"
+                android:text="ii) BIF2 - Omics biology"/>
+            <TextView
+                android:id="@+id/abs_tv38"
+                android:layout_below="@id/abs_tv37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="12dp"
+                android:text="iii) BIF3 - Synthetic biology"/>
+            <TextView
+                android:id="@+id/abs_tv39"
+                android:layout_below="@id/abs_tv38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="12dp"
+                android:text="iv) BIF4 - Systems biology"/>
+            <TextView
+                android:id="@+id/abs_tv40"
+                android:layout_below="@id/abs_tv39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="8dp"
+                android:text="E) IDB - Industrial Biotechnology"/>
+            <TextView
+                android:id="@+id/abs_tv41"
+                android:layout_below="@id/abs_tv40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="18dp"
+                android:text="i) IDB1- Biomass to fuels and chemicals"/>
+            <TextView
+                android:id="@+id/abs_tv42"
+                android:layout_below="@id/abs_tv41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="15dp"
+                android:text="ii) IDB2- Biorefineries"/>
+            <TextView
+                android:id="@+id/abs_tv43"
+                android:layout_below="@id/abs_tv42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="12dp"
+                android:text="iii) IDB3- Fermentation technology"/>
+            <TextView
+                android:id="@+id/abs_tv44"
+                android:layout_below="@id/abs_tv43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="12dp"
+                android:text="iv) IDB4- Microbial products"/>
+            <TextView
+                android:id="@+id/abs_tv45"
+                android:layout_below="@id/abs_tv44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="15dp"
+                android:text="v) IDB5- Circular economy in Industries"/>
+            <TextView
+                android:id="@+id/abs_tv46"
+                android:layout_below="@id/abs_tv45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="8dp"
+                android:text="F) ENB - Entrepreneurship and IPR in Biotechnology"/>
+            <TextView
+                android:id="@+id/abs_tv47"
+                android:layout_below="@id/abs_tv46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="18dp"
+                android:text="i) ENB1 - Biotechnology Business Incubator"/>
+            <TextView
+                android:id="@+id/abs_tv48"
+                android:layout_below="@id/abs_tv47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="15dp"
+                android:text="ii) ENB2 - Biotechnological Consultancy Services"/>
+            <TextView
+                android:id="@+id/abs_tv49"
+                android:layout_below="@id/abs_tv48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="12dp"
+                android:text="iii) ENB3 – Agriclinic"/>
+            <TextView
+                android:id="@+id/abs_tv50"
+                android:layout_below="@id/abs_tv49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="12dp"
+                android:text="iv) ENB4 - IPR in Biotechnology"/>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    tools:context=".venue_fragment"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/ven_tv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="VENUE"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_marginTop="8dp"/>
+            <TextView
+                android:id="@+id/ven_tv2"
+                android:layout_below="@+id/ven_tv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Birla Institute of Scientific Research (BISR)"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_marginTop="8dp"/>
+            <TextView
+                android:id="@+id/ven_tv3"
+                android:layout_below="@+id/ven_tv2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Address: Statue Circle, Jaipur-302001, INDIA, Rajasthan, INDIA"
+                android:textColor="@android:color/black"
+                android:textSize="18dp"
+                android:textAlignment="center"
+                android:layout_marginTop="8dp"/>
+            <ImageView
+                android:id="@+id/ven_img"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/brsi_pic"/>
+            <TextView
+                android:id="@+id/ven_tv4"
+                android:layout_below="@+id/ven_tv3"
+                android:layout_marginTop="250dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:textAlignment="center"
+                android:text="Jaipur, the fascinating capital of the marvellous state of Rajasthan, is one of the well-planned cities of its time. Jaipur was established by the then Maharaja, Sawai Jai Singh. The graceful architecture of the City that runs across in pink colour has earned Jaipur the title of 'The Pink City'. Jaipur is predominantly known for its musicians, artisans and craftsmen. Today, it is flocked by masses for its fine jewellery, varied textiles and sumptuous cuisine. Rajasthan's beautiful Pink City Jaipur, was the stronghold of a clan of rulers whose three hill forts and series of palaces in the city are important attractions. Jaipur's bazaars sell embroidered leather shoes, blue pottery, tie and dye scarves and other exotic wares. Western Rajasthan itself forms a convenient circuit, in the heart of the Thar desert which has shaped its history, lifestyles and architecture. Tourist Interested Places are: Jantar Mantar, Amber Fort, Moti Doongari and Lakshmi Narayan Temple, City Palace, Albert Hall (Museum), Hawa Mahal, Jaigarh Fort, Sisodia Rani Garden and many more........." />
+
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

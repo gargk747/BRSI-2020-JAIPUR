@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".scientific_fragment"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SCIENTIFIC PROGRAMS"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The scientific program of the BSAEH-2020 will comprise plenary and invited lecture by the peers from all over the world and short oral presentations and posters presentations by contributory delegates."
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="5dp"
+                android:textSize="17dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PIKNIKH Workshop on Herbal Interventions to Ameliorate Environmental Stresses: Tools and Technologies"
+                android:paddingLeft="5dp"
+                android:textStyle="bold"
+                android:paddingRight="5dp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="5dp"
+                android:textSize="17dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Coordinators: Dr Sunil Kaul and Dr Renu Wadhwa, National Institute of Advanced Industrial Science and Technology, Tsukuba, Japan"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="0dp"
+                android:textSize="17dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Workshop on Scientific Writing:"
+                android:paddingLeft="5dp"
+                android:textStyle="bold"
+                android:paddingRight="5dp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="8dp"
+                android:textSize="17dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="There will be a workshop on Scientific Writing, open to any one (pre-registration would be mandatory as only limited seats) on 8th November 2020 (09.30 to 15.00h), especially to young researchers and PhD scholars."
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="0dp"
+                android:textSize="17dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rapid Fire Presentation:"
+                android:paddingLeft="5dp"
+                android:textStyle="bold"
+                android:paddingRight="5dp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="8dp"
+                android:textSize="17dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A dedicate session would be held open for PhD students to present their work as oral Rapid Fire in three minutes. Delegates must opt for this while submitting the abstract. A maximum of FIVE slides will be allowed for this. These will be evaluated by independent juries and best ones will be conferred awards in the closing session of the conference."
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="0dp"
+                android:textSize="17dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Industry-Young Researchers Interactive session:"
+                android:paddingLeft="5dp"
+                android:textStyle="bold"
+                android:paddingRight="5dp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="8dp"
+                android:textSize="17dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A special session on panel discussion will be organized prior to closing session on 11th November 2020 in which eminent industrialists will interact with BSAEH delegates."
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="0dp"
+                android:textSize="17dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Posters:"
+                android:paddingLeft="5dp"
+                android:textStyle="bold"
+                android:paddingRight="5dp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="8dp"
+                android:textSize="17dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Poster size should be 90 cm width and 100 cm length. Each presenter will be allotted a poster number/board. Authors should paste poster on the boards before 09.00 h on the day of their presentation and remove after 17.30h. All posters will be evaluated during scheduled presentation time and presenting authors should be present there. These will be evaluated by independent juries and best ones will be conferred awards in the closing session of the conference."
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="0dp"
+                android:textSize="17dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Awards:"
+                android:paddingLeft="5dp"
+                android:textStyle="bold"
+                android:paddingRight="5dp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="8dp"
+                android:textSize="17dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Following awards will be conferred to Best Papers under Rapid Fire presentation and Posters presentation in the closing session."
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="0dp"
+                android:textSize="17dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- BSAEH-BRSI awards for Best Papers under Rapid Fire Presentation"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="0dp"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- BSAEH-BRSI awards for Best Posters"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="0dp"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- BSAEH- Khanal Foundation Research Excellence Awards for Best Posters (for females only)"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="0dp"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- BSAEH-CEES Research Excellence Awards for Best Posters"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="0dp"
+                android:textSize="15dp"/>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

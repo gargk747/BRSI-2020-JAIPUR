@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".contacts_fragment"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@android:color/holo_red_light"
+        android:textAlignment="center"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="Conference Secretariat:" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Malaviya National Institute of Technolgy, Jaipur"
+        android:textColor="@android:color/black"
+        android:textSize="18dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"/>
+    <TextView
+        android:layout_marginRight="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="If you have any specific query, feel free to contact Convenor"
+        android:textSize="18dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="15dp"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="bold"
+        />
+    <ImageView
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="8dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/vivekanand"
+        />
+    <TextView
+        android:layout_marginRight="5dp"
+        android:id="@+id/con_tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dr. Vivekanand"
+        android:textColor="@android:color/background_dark"
+        android:clickable="true"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(click above to open details)"
+        android:layout_marginLeft="8dp"
+        android:textSize="12dp"
+        android:layout_marginTop="0dp"
+        />
+    <TextView
+        android:layout_marginRight="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Assistant Professor and Ramalingaswami Re-entry Fellow (DBT-GoI)"
+        android:textColor="@android:color/black"
+        android:textSize="18dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:layout_marginRight="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Centre for Energy and Environment"
+        android:textColor="@android:color/black"
+        android:textSize="18dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="0dp"/>
+    <TextView
+        android:layout_marginRight="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Malaviya National Institute of Technology Jaipur"
+        android:textColor="@android:color/black"
+        android:textSize="18dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="0dp"/>
+    <TextView
+        android:layout_marginRight="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JLN Marg, Jaipur 302017 Rajasthan India"
+        android:textColor="@android:color/black"
+        android:textSize="18dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="0dp"/>
+    <TextView
+        android:layout_marginRight="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E-mail: brsijaipur@gmail.com"
+        android:textColor="@android:color/black"
+        android:textSize="18dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="0dp"/>
+
+</LinearLayout>
