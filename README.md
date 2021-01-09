@@ -16,7 +16,7 @@ Android Application for International Conference on Biotechnology for Sustainabl
   </tr>
   <tr>
     <td><img src="https://github.com/sdas969/BRSI-2020-JAIPUR/raw/master/7.png" width=270 height=480></td>
-    <td><img src=""https://github.com/sdas969/BRSI-2020-JAIPUR/raw/master/8.png" width=270 height=480></td>
+    <td><img src="https://github.com/sdas969/BRSI-2020-JAIPUR/raw/master/8.png" width=270 height=480></td>
     <td><img src="https://github.com/sdas969/BRSI-2020-JAIPUR/raw/master/9.png" width=270 height=480></td>
   </tr>
  </table>
